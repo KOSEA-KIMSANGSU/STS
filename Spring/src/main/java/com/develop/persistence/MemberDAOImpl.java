@@ -46,5 +46,11 @@ public class MemberDAOImpl implements MemberDAO{
 		
 		sqlSession.update(namespace+".updateMember", vo);
 	}
-	
+
+	@Override
+	public void deleteMember(String m_uid) throws Exception {
+		sqlSession.delete(namespace+".deleteMember", m_uid);
+		
+	}
+
 }

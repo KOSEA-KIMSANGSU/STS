@@ -15,4 +15,6 @@ public interface MemberDAO {
 	public List<MemberVO> selectMemberAll();
 	
 	public void updateMember(MemberVO vo) throws Exception;
+	
+	public void deleteMember(String m_uid) throws Exception;
 }
