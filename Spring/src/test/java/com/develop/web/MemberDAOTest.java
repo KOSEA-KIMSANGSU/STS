@@ -23,6 +23,15 @@ public class MemberDAOTest {
 	private MemberDAO memberDao;
 
 	@Test
+	public void testDeleteMember() throws Exception {
+		
+		String m_uid = "spring4";
+		memberDao.deleteMember(m_uid);
+		
+		//memberDao.deleteMember("spring4");	
+	}
+	
+	@Test
 	public void testUpdateMember() throws Exception {
 	
 		MemberVO memberVo = new MemberVO();

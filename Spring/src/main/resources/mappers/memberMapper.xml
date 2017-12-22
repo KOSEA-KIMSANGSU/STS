@@ -48,16 +48,11 @@
   </update>
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <delete id="deleteMember">
+  	DELETE 
+		FROM member
+	WHERE m_uid = #{m_uid}
+  </delete>
   
   
 </mapper>
