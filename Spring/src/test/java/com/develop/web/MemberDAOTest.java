@@ -1,4 +1,4 @@
-//테스트용 정보입니다
+//테스트용 주석
 
 package com.develop.web;
 
